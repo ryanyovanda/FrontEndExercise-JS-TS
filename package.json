@@ -6,12 +6,13 @@
   "scripts": {
     "build": "tsc",
     "run": "node dist/index.js",
-    "dev": "tsc -w"
+    "dev": "tsnd --respawn index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "ts-node-dev": "^2.0.0",
     "typescript": "^5.6.2"
   }
 }
